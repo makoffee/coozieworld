@@ -1,0 +1,128 @@
+/*!
+Theme Name: Leto Child
+Theme URI: https://athemes.com/theme/leto
+Author: athemes
+Author URI: https://athemes.com
+Description: Leto is a WooCommerce compatible theme that works great for any kind of shop. Leto features color and font options, blog options, integration with the Page Builder plugin so you can easily build your homepage or other pages and many more other useful features.
+Version: 1.0.11
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Template: leto
+Text Domain: leto-child
+Tags: e-commerce, two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Leto is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+.panel-widget-style-for-345-0-0-0 .title-heading {
+    color:#ffffff; 
+    font-size:48px;
+    -webkit-text-shadow: 0px 3px 10px 0px rgba(0,0,0,0.55);
+    -moz-text-shadow: 0px 3px 10px 0px rgba(0,0,0,0.55);
+    text-shadow: 0px 3px 10px 0px rgba(0,0,0,0.55);    
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+    
+}
+.btn-success:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.33);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.33);
+}
+.btn-primary {background: #ff3b3b}
+.btn-secondary {background: #3bffff}
+.btn-warning {background: #ff9d3b}
+.btn-danger {background: #ff0084}
+
+
+.category-item__title {color:#000}
+.list-categories-section .category-item__title {font-size:32px;}
+.site-info {display:none;}
+
+.woocommerce-Price-currencySymbol {display:inline !important;}
+.pewc-product-extra-groups {padding-left: 0px;}
+
+.woocommerce.single-product .cart {
+    margin-top: 0px;
+}
+
+/* header-navigation */
+
+.home .header-navigation.header-floating {
+  background-color: transparent;
+  filter:invert(1);
+}
+
+.home .header-navigation.header-floating.floating {
+  background-color: #fff;
+  filter:invert(0);
+}
+
+.home.has-hero .site-header:hover {
+  background-color: #000;
+  filter:invert(1)
+}
+
+.site-footer .widget .widget-title {
+    text-align: center;
+}
+
+.footer-widget {
+    margin-top: 28px !important;
+}
+
+.site-footer {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+
+}
+
+.pewc-upload-label-wrapper {
+    display:none;
+    
+}
+.pewc-cart-item-price {
+    display:none;
+}
+
+
+.variation-Uploadrequired { display: none; }
+
+.site-branding img {
+    max-width: 55px;
+}
+
+.header-navigation.header-floating.floating .site-branding img {
+    max-width: 55px;
+}
+
+.list-categories-section .category-item__img {
+    background-position: top center;
+}
+
+.list-categories-section .category-item__text {
+ 
+    left: 9vh;
+    bottom: 6vh;
+}
+#wpcf7-f3941-p262-o1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wpcf7-form label {width:100%;}
+
+.wpcf7-form-control.wpcf7-text {
+    width: 100%;
+}
